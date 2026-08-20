@@ -1,40 +1,118 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mundo Automotivo - Blog</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
         header {
             background-color: #770000;
             color: #FFFFFF;
             text-align: center;
             max-width: 800px;
             margin: 0 auto;
+            padding: 20px 0;
+            border-radius: 8px 8px 0 0;
         }
 
         main {
             background-color: #faf6ee;
-            color: #9b0606;
-            text-align: center;
+            color: #333333;
             max-width: 800px;
             margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 0 0 8px 8px;
         }
+
+        article {
+            border-bottom: 2px solid #770000;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        article:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            color: #9b0606;
+            margin-top: 15px;
+        }
+
+        .author {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9em;
+        }
+
         img {
-              width: 800px;
-              height: 600px;
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        ul {
+            text-align: left;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            max-width: 800px;
+            margin: 20px auto 0 auto;
+            color: #666;
+            font-size: 0.8em;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao meu site!</h1>
+        <h1>Bem-vindo ao Mundo Automotivo!</h1>
         <p>Aqui vou compartilhar curiosidades sobre o mundo automotivo novo e antigo.</p>
     </header>
+
     <main>
-           <img src="Gemini_Generated_Image_l8g5xjl8g5xjl8g5.png" alt="Fotografia de um encontro de carros antigos ao pôr do sol, destacando um Chevette azul e um Chevrolet Impala 1967 preto estacionados lado a lado. Na parte superior, há o texto ">
-           <h2>Meu primeiro post</h2>
-           <p>Por: Arthur Tavares</p>
-           <p>Boas-vindos ao meu novo blog! Aqui vou compartilhar dicas sobre o universo dos carros, os modelos mais famosos da história e as principais novidades do mercado automobilístico.</p>
+        <!-- Post 1 -->
+        <article>
+            <img src="Gemini_Generated_Image_l8g5xjl8g5xjl8g5.png" alt="Fotografia de um encontro de carros antigos ao por do sol, destacando um Chevette azul e um Chevrolet Impala 1967 preto estacionados lado a lado.">
+            <h2>Meu primeiro post</h2>
+            <p class="author">Por: Arthur Tavares</p>
+            <p>Sejam bem-vindos ao meu novo blog! Aqui vou compartilhar dicas sobre o universo dos carros, os modelos mais famosos da historia e as principais novidades do mercado automobilitico.</p>
+        </article>
+
+        <!-- Post 2 -->
+        <article>
+            <h2>5 Curiosidades Incrieis Sobre Carros Classicos</h2>
+            <p class="author">Por: Arthur Tavares</p>
+            <p>O universo dos carros classicos e cheio de historias surpreendentes. Confira algumas curiosidades que marcaram a historia da industria automobilistica:</p>
+            <ul>
+                <li><strong>O Fusca e a Volkswagen:</strong> O Volkswagen Sedan (nosso famoso Fusca) comeaou a ser desenhado nos anos 1930 e se tornou um dos carros mais vendidos e duradouros do planeta.</li>
+                <li><strong>Chevrolet Impala 1967:</strong> Conhecido por seu design imponente e motor V8 potente, este modelo se tornou um icone mundial da cultura pop.</li>
+                <li><strong>Chevette no Brasil:</strong> Lancado em 1973, o Chevette da General Motors conquistou o publico brasileiro com sua tracao traseira e grande durabilidade urbana.</li>
+                <li><strong>Cinto de tres pontos:</strong> Criado pela Volvo em 1959, a fabricante liberou a patente gratuitamente para todas as outras montadoras em prol da seguranca rodoviaria.</li>
+            </ul>
+        </article>
+
+        <!-- Post 3 -->
+        <article>
+            <h2>Carros Eletricos vs. Motores a Combustao</h2>
+            <p class="author">Por: Arthur Tavares</p>
+            <p>A transicao para os veiculos eletricos e uma das maiores transformacoes do setor automotivo. Enquanto os motores a combustao tradicionalmente utilizam gasolina, etanol ou diesel para gerar energia via explosão, os veículos elétricos utilizam baterias de íon-lítio e motores magnéticos, entregando torque imediato e emissão zero de poluentes durante a condução.</p>
+        </article>
     </main>
+
+    <footer>
+        <p>&copy; Blog Mundo Automotivo - Criado por Arthur Tavares</p>
+    </footer>
 </body>
+</html>
